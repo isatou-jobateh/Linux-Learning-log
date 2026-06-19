@@ -1,4 +1,4 @@
-Linux Beginner Projects
+Linux learning logs 
 
 This repository contains my beginner Linux projects and exercises as I learn Linux for Cloud Engineering.
 
