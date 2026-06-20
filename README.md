@@ -1,23 +1,29 @@
-Linux learning logs 
+# Linux Learning Log
 
-This repository contains Linux practices logs , commands used , what i have learned  and challenges faced .
+This repository contains my Linux learning journey as an aspiring Cloud Engineer.
 
-About
+## Contents
 
-I am learning Linux alongside AWS and Python. This repository documents my hands-on practice while building foundational Linux skills.
+- Linux commands practice
+- Navigation exercises
+- File management exercises
+- Notes and lessons learned
+- Challenges faced and solutions
 
-Skills Practiced
+## Topics Covered
 
-* Linux terminal navigation
-* File and directory management
-* Creating and editing files
-* Working with Linux commands
-* Basic system administration
+- pwd
+- ls
+- cd
+- mkdir
+- touch
+- echo
+- cat
+- cp
+- mv
+- rm
 
+## Author
 
-Goal
-To build a strong Linux foundation and develop the skills needed for Cloud Engineering, DevOps, and AWS administration.
-
-Author
 Aisha Jobateh
 Aspiring Cloud Engineer
