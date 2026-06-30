@@ -1,0 +1,17 @@
+saisha_jobateh@Aisha-Jobateh:~$ sleep 300 &
+[1] 458
+aisha_jobateh@Aisha-Jobateh:~$ jobs
+[1]+  Running                    sleep 300 &
+aisha_jobateh@Aisha-Jobateh:~$ ps
+    PID TTY          TIME CMD
+    316 pts/0    00:00:00 bash
+    458 pts/0    00:00:00 sleep
+    479 pts/0    00:00:00 ps
+aisha_jobateh@Aisha-Jobateh:~$ kill 458
+[1]+  Terminated                 sleep 300
+aisha_jobateh@Aisha-Jobateh:~$ jobs
+aisha_jobateh@Aisha-Jobateh:~$ ps
+    PID TTY          TIME CMD
+    316 pts/0    00:00:00 bash
+    507 pts/0    00:00:00 ps
+aisha_jobateh@Aisha-Jobateh:~$
