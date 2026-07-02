@@ -1,0 +1,90 @@
+aisha_jobateh@Aisha-Jobateh:~$ sudo apt update
+[sudo: authenticate] Password:
+Hit:1 http://security.ubuntu.com/ubuntu resolute-security InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu resolute InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu resolute-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu resolute-backports InRelease
+52 packages can be upgraded. Run 'apt list --upgradable' to see them.
+aisha_jobateh@Aisha-Jobateh:~$ sudo apt install tree
+tree is already the newest version (2.3.1-1).
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 52
+aisha_jobateh@Aisha-Jobateh:~$ tree
+.
+├── Cloud-Engineer-Lab
+│   ├── AWS
+│   │   ├── ec2.txt
+│   │   └── s3.txt
+│   ├── Goals
+│   │   └── career.txt
+│   ├── Linux
+│   │   ├── commands.txt
+│   │   └── notes.txt
+│   └── Python
+│       ├── practice.txt
+│       └── practice2.txt
+├── Cloud-Home-Lab
+│   ├── AWS
+│   │   ├── ec2.txt
+│   │   └── s3.txt
+│   ├── Backups
+│   │   └── ec2-backup.txt
+│   ├── Linux
+│   │   ├── commands.txt
+│   │   └── linux-notes.txt
+│   └── Python
+│       └── practice.txt
+├── File-lab
+│   ├── aws-notes.txt
+│   ├── backup-file1.txt
+│   ├── backups
+│   └── file1.txt
+├── Ownership-Lab
+│   ├── diary.txt
+│   └── notes.txt
+├── Ownership-lab
+│   ├── meeting-notes.txt
+│   └── report.txt
+├── Personal-Organization-Lab
+│   ├── backup.sh
+│   ├── goals.txt
+│   ├── journal.txt
+│   └── private-diary.txt
+├── Server-Cleanup
+│   ├── archive
+│   │   ├── backup.txt
+│   │   └── old-config.txt
+│   ├── ec2.txt
+│   └── server-logs.txt
+├── Study-lab
+│   ├── aws
+│   │   └── ec2.txt
+│   ├── linux
+│   │   └── commands.txt
+│   ├── notes
+│   │   └── goals.txt
+│   └── python
+│       └── practice.txt
+├── Team-Handover
+│   ├── meeting-notes.txt
+│   └── report.txt
+├── apt list --installed | grep tree
+├── aws-secrets.txt
+├── chomd-lab
+│   └── script.sh
+├── numeric-permission-project
+│   ├── aws-secrets.txt
+│   ├── deploy.sh
+│   └── notes.txt
+└── permission-lab
+    ├── backups
+    ├── notes.txt
+    └── secrets.txt
+
+28 directories, 42 files
+aisha_jobateh@Aisha-Jobateh:~$ apt list --installed | grep tree
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+tree/resolute,now 2.3.1-1 amd64 [installed]
+aisha_jobateh@Aisha-Jobateh:~$
